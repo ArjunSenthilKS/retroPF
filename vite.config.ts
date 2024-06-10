@@ -1,12 +1,20 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import { resolve } from 'path'
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src')
+    }
+  },
   build: {
-    outDir: 'dist', // The default build output directory
+    outDir: 'dist',
     rollupOptions: {
       output: {
-        manualChunks: undefined,
-      },
-    },
-  },
-});
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
+        assetFileNames: 'assets/[name].[hash].[ext]'
+      }
+    }
+  }
+})
