@@ -1,0 +1,50 @@
+{
+  "ascii": [
+    
+    " █████╗ ██████╗      ██╗██╗   ██╗███╗   ██╗",
+    "██╔══██╗██╔══██╗     ██║██║   ██║████╗  ██║",
+    "███████║██████╔╝     ██║██║   ██║██╔██╗ ██║",
+    "██╔══██║██╔══██╗██   ██║██║   ██║██║╚██╗██║",
+    "██║  ██║██║  ██║╚█████╔╝╚██████╔╝██║ ╚████║",
+    "╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝  ╚═════╝ ╚═╝  ╚═══╝"
+                                              
+  ],
+  "title": "WebShell",
+  "username": "guest",
+  "hostname": "home-arjun",
+  "password": "catsupremacy",
+  "social": {
+    "email": "arjunsenthil.dev@gmail.com",
+    "github": "ArjunSenthilKS",
+    "linkedin": "arjun-senthil-aa1131251/"
+  },
+  "aboutGreeting": "Hi stranger. Welcome to WebShell.",
+  "projects": [
+    [""]
+  ],
+  
+  "colors": {
+    "background": "#1E1F26",
+    "foreground": "#EAEAEA",
+    "banner": "#4A90E2",
+    "border": {
+      "visible": true,
+      "color": "#50E3C2"
+    },
+    "prompt": {
+      "default": "#9B9B9B",
+      "user": "#7ED321",
+      "host": "#4A90E2",
+      "input": "#50E3C2"
+    },
+    "link": {
+      "text": "#4A90E2",
+      "highlightColor": "#50E3C2",
+      "highlightText": "#1E1F26"
+    },
+    "commands": {
+      "textColor": "#50E3C2"
+    }
+  }
+  
+}
